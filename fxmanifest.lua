@@ -4,7 +4,12 @@ game 'rdr3'
 
 description 'btc_roberyplayer'
 author 'Betiucia'
-version '1.0'
+version '1.1'
+
+shared_scripts {
+    'config.lua',
+    'locale/*.lua'
+}
 
 
 client_scripts {
